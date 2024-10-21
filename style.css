@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+    padding: 12px 24px 48px 108px;
+    background-color: rgb(0, 73, 30);
+}
+
+.hero-txt{
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h1{
+    color: #eef7ed;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight:600;
+}
+
+.h1-txt{
+    color:#ffffff8d;
+    font-size:smaller;
+    font-family:montserrat;
+    font-size: 10px;
+}
+
+.btn-filled{
+    border-radius: 14px;
+    border-width: 0px;
+    
+    padding: 4px 8px;
+    background-color: #ffd500;
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+.btn .btn-stroke{
+    border-radius: 14px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #ffffff;
+    padding: 4px 8px;
+    background-color: #ffffff00;
+    color: #ffffff;
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+section{
+    display: flex;
+    justify-content: flex-start;
+    gap: 48px;
+    padding: 72px 24px 48px 108px;
+}
+
+.sect-div{
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h2{
+    color: #070707;
+    font-family: Montserrat;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight:700;
+}
+.sect-txt{
+    color:#0000008d;
+    font-size:smaller;
+    font-family:montserrat;
+    font-size: 10px;
+}
+
+.btn-filled2{
+    border-radius: 14px;
+    border-width: 0px;
+    padding: 4px 8px;
+    color: #ffffff;
+    background-color: #111111ca;
+    font-family: montserrat;
+    font-weight: 500;
+    box-sizing: content-box;
+}
+.chair{
+    display: flex;
+    flex-direction: row;
+    gap: 108px;
+}
+.chair-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.chair-set{
+    color:#0000008d;
+    font-size:small;
+    font-weight: 700;
+    font-family:montserrat;
+    font-size: 12px;
+    align-items: center;
+}
